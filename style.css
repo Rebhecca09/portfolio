@@ -1,0 +1,178 @@
+@font-face {
+    font-family: Imperial;
+    src: url(font_face/fontes/Imperial_Script/ImperialScript-Regular.ttf);
+}
+@font-face {
+    font-family: Teko;
+    src: url(fontes/Teko/Teko-VariableFont_wght.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --cor1:#520201;
+    --cor2:#BB9200;
+    --cor3:#000000;
+    --cor4:#5c1717;
+}
+
+.one{
+    color: var(--cor2)
+
+}
+#one03{
+    background-color: rgb(105, 0, 0);
+    height: 100vh;
+    width:500px ;
+    position: absolute;
+    top: 0;
+    left: -500px;
+    transition: 2s;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#lik{
+color: #BB9200;
+font-size: 30px;
+}
+i{
+    font-size: 30px;
+}
+#dois{
+    position: absolute;
+    top: 10px;
+    left: 101%;
+}
+body{
+    background-color: var(--cor1);
+    align-items: center;
+    padding: 10px;
+    
+}
+#tres{
+    text-align: center;
+    font-family: Imperial;
+}
+#quatro{
+    text-align: center;
+}
+#cinco{
+    background-color: rgb(105, 0, 0);
+    height: 600px;
+    width:800px;
+    text-align: center;
+    gap: 10px;
+    font-size: 30px;
+    font-family:Teko ;
+    color: var(--cor2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+
+}
+.sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+#segunda{
+    color: var(--cor2);
+    font-size: 80px;
+    font-family: Imperial;
+    text-align: center;
+    color: var(--cor2);
+}
+#um{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color:var(--cor2);
+    
+}
+#two{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color:var(--cor2);
+}
+#tree{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: var(--cor2);
+}
+.batata{
+   height:300px;
+   width: 300px; 
+   background-color: var(--cor4);
+   font-size: 30px;
+}
+#pao{
+    width: 650px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+   
+}
+#hub{
+    font-family: Imperial;
+    color: var(--cor2);
+
+}
+#df{
+    font-family: Teko;
+    color: var(--cor2);
+}
+.casa{
+    font-size: 80px;
+    color: var(--cor2);
+
+}
+#qqa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.lik{
+    font-size: 80px;
+    color: var(--cor2);
+    display: flex;
+    flex-direction: column ;
+}
+#lks{
+    display: flex;
+    flex-direction: column;
+}
+#dd{
+    height: 30px;
+    color: var(--cor2);
+    font-family: Teko;
+    font-size: 20px;
+    background-image: linear-gradient(to left,black,white,black );
+}
+#ee{
+    height: 30px;
+    color: var(--cor2);
+    font-family: Teko;
+    font-size: 20px;
+    background-image: linear-gradient(to left, var(--cor1),white,var(--cor1));
+}
+
+#ff{
+    height: 30px;
+    color: var(--cor2);
+    font-family: Teko;
+    font-size: 20px;
+    background-image: linear-gradient(to left, rgb(175, 174, 174),white,rgb(175, 175, 175));
+}
